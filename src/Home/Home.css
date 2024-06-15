@@ -1,0 +1,25 @@
+.s-blur {
+  background: var(--blur);
+  top: 0;
+  left: 0;
+}
+.s-blur2 {
+  background: #0000ff21;
+  bottom: 0;
+  right: 0;
+}
+.s-blur3 {
+  background: #2323bbdd;
+  bottom: 0px;
+  right: 0;
+}
+
+.blur {
+  width: 22rem;
+  height: 14rem;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  filter: blur(72px);
+  margin-left: -3em;
+}

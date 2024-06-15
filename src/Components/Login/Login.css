@@ -1,0 +1,21 @@
+.login{
+    max-height: 100vh !important;
+    width: 100% !important;
+    margin-top: 3em auto !important;
+    overflow: hidden !important;
+    background-color: #110c29 !important;
+}
+.h5{
+    color: #6f58da !important;
+    font-weight: 600!important;
+    font-size: 25px!important;
+}
+.right{
+  height: 100vh !important;
+}
+
+@media (max-width: 976px) {
+    .cube {
+      display: none;
+    }
+  }

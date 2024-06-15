@@ -1,0 +1,39 @@
+.footer-citizen{
+    background-image:var(--card)!important;
+    border: 1px solid rgba(170, 125, 252, .25)!important;
+    width: 100% !important;
+}
+.final{
+    margin-top: 2em;
+}
+.cityzen-p{
+    width: 60%;
+    font-size: 15px;
+    margin-top: 1.5em;
+}
+.footer-container ul li a{
+text-decoration: none;
+margin-left: 1.5em;
+margin-top: 2em;
+text-align: center;
+}
+.footer-container ul li{
+    gap: 12px;
+}
+.img-footer{
+    transform: scale(0.9);
+}
+.footer-img{
+    width: 120px;
+    height: 120px;
+}
+.logOut{
+    margin-top: -9em;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}

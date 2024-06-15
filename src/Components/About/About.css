@@ -1,0 +1,9 @@
+.icon-card2{
+    background: none;
+    border: none;
+}
+.img-about{
+    transform: scale(0.8);
+    margin-left: -5em; 
+    margin-top: -1em;
+}

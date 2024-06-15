@@ -1,0 +1,18 @@
+.intro-card1{
+    margin-top: 10em;
+    background: none;
+    border: none;
+}
+
+.main-image{
+    transform: scale(0.9);
+}
+.message-icon{
+    transform: scale(0.1);
+    position: fixed;
+    bottom: -235px;
+    right: -230px;
+    margin: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}

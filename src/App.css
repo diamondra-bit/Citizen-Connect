@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --background: #110c29;
+  --text-color: #fff;
+  --p-color: #ffffffb7;
+  --blur: #2323bbdd;
+  --card: linear-gradient(115.64deg, #271e55 0%, #100b28 100%);
+  --border: 1px solid rgba(170, 125, 252, 0.25);
+}
+[data-theme="dark"] {
+  --background: #fff;
+  --text-color: #110c29;
+  --p-color: #110c29a8;
+  --blur: #6683a3d1#2828cb59;
+  --card: #fff;
+  --border: 1px solid #110c29;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  color: var(--text-color);
+}
+button,
+link {
+  font-family: Inter, "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+  grid-column-gap: 8px;
+  border: 1px undefined undefined;
+  color: #fff;
+  background-image: linear-gradient(114.16deg, #6f58da, #5131e7);
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  text-decoration: none;
+  display: flex;
+  box-shadow: 0 0 15px #6f58da;
+  width: 200px;
+  border-radius: 20px;
+}
+h1,
+h3 {
+  color: var(--text-color) !important;
+}
+p {
+  color: var(--p-color) !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter, "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+  position: static;
+}
+.dark {
+  background: var(--background) !important;
+
+}
+.container-main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  background-position-y: -50vw;
+  background-repeat: no-repeat;
+}
+
+.partenaire-container,
+.about-container,
+.services-container,
+.footer-container {
+  margin-top: 10em !important;
+  margin-bottom: 4em;
+}
+.footer-container {
+  margin-bottom: 0em !important;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+}
+
+.main-image {
+  animation: moveUpDown 2s ease-in-out infinite;
+}

@@ -43,8 +43,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      {/* <img src={message} alt="" className='message-icon' />
-     */}
+   
     </>
   )
 }
